@@ -1,0 +1,13 @@
+html { scroll-behavior: smooth; }
+
+@keyframes shimmer {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(300%); }
+}
+
+.skill-card:hover .shimmer { animation: shimmer 1.1s linear infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .skill-card:hover .shimmer { animation: none; }
+}
