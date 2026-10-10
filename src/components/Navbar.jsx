@@ -13,7 +13,7 @@ export default function Navbar({ active, onNavigate }) {
     <header className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-gradient-to-r from-red-950/70 via-purple-950/70 to-blue-950/70 backdrop-blur-md">
       <nav className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
         <button onClick={() => go("home")} className="text-xl font-extrabold tracking-tight transition hover:scale-105">
-          Your<span className="text-red-400">Name</span>
+          MY<span className="text-red-400">PORTFOLIO</span>
         </button>
 
         <ul className="hidden gap-2 md:flex">
